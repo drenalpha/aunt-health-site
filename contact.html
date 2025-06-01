@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact – Aunt's Health Site</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-blur"></div>
+
+  <header>
+    <h1>Aunt's Health Site</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="articles.html">Articles</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="fruit.html">Fruits</a>
+      <a href="herbs.html">Herbs</a>
+    </nav>
+  </header>
+
+  <main class="article-container">
+    <article>
+      <h1>Contact Us</h1>
+      <p>If you have any questions or want to learn more about natural health and Ethiopian herbs, please reach out to us!</p>
+
+      <form action="#" method="POST" class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+
+        <button type="submit" class="btn-submit">Send Message</button>
+      </form>
+    </article>
+  </main>
+
+  <footer>
+    <p>© 2025 Aunt’s Health Site. Ethiopia’s herbs — healing from the roots.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
