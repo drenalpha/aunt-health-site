@@ -357,3 +357,8 @@ blockquote {
 .btn-submit:hover {
   background-color: #45a049;
 }
+.smaller-img {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+}
