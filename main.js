@@ -16,4 +16,19 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Add any future interactions here
-console.log("Aunt’s site is alive.");
+console.log("Auntâ€™s site is alive.");
+document.addEventListener("DOMContentLoaded", () => {
+  const element = document.querySelector("h2"); // or use '.typewriter' if you add the class
+  const text = element.textContent;
+  element.textContent = "";
+  
+  let i = 0;
+  function type() {
+    if (i < text.length) {
+      element.textContent += text.charAt(i);
+      i++;
+      setTimeout(type, 100); // Adjust typing speed here (ms)
+    }
+  }
+  type();
+});
